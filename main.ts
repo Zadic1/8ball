@@ -12,7 +12,7 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 let random_number = 0
-basic.showString("ask question")
+basic.showString("ask question then shake")
 basic.forever(function () {
     basic.showIcon(IconNames.StickFigure)
 })
